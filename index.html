@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- FONT AWESOMEN ICONO -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/estilo.css">
+
+
+    <title>Gimnasio</title>
+
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="cabecera" id="cabecera">
+
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="img/logo-nav.png" alt="logo"> GYM VEN
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__lista">
+
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#programa" class="nav__link">Programa</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#elegir" class="nav__link">Elegir</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#precio" class="nav__link">Precio</a>
+                    </li>
+
+                    <div class="nav__link">
+                        <a href="#footer" class="boton nav__boton">
+                            Registrarte Ahora
+                        </a>
+                    </div>
+
+
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <!-- boton toggle -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+
+            <div class="home__container container grid">
+                <div class="home__dato">
+                    <h2 class="home__subtitulo">HAZ TU</h2>
+                    <h1 class="home__titulo">FORMA DEL CUERPO</h1>
+                    <p class="home__descripcion">
+                        Aquí te ayudaremos a moldear y construir tu cuerpo ideal y vivir tu vida al máximo.
+                    </p>
+                    <a href="#" class="boton boton__flex">Empezar <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="home__images">
+
+                    <img src="img/home-img.png" alt="home image" class="home__img">
+
+                    <div class="home__triangle home__triangle-3"></div>
+                    <div class="home__triangle home__triangle-2"></div>
+                    <div class="home__triangle home__triangle-1"></div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== LOGOS ====================-->
+        <section class="logos section">
+
+            <div class="logos__container container grid">
+                <img src="img/logo1.png" alt="logo imagen" class="logos__img">
+                <img src="img/logo2.png" alt="logo imagen" class="logos__img">
+                <img src="img/logo3.png" alt="logo imagen" class="logos__img">
+                <img src="img/logo4.png" alt="logo imagen" class="logos__img">
+            </div>
+
+        </section>
+
+        <!--==================== PROGRAMA ====================-->
+        <section class="programa section" id="programa">
+
+            <div class="container">
+                <div class="section__dato">
+                    <h2 class="section__subtitulo">Nuestro programa</h2>
+                    <div class="section__titulos">
+                        <h1 class="section__titulo-border">CONSTRUYE TU</h1>
+                        <h1 class="section__titulo">MEJOR CUERPO</h1>
+                    </div>
+                </div>
+
+                <div class="programa_container grid">
+
+                    <article class="programa__tarjeta">
+                        <div class="programa__forma">
+                            <img src="img/p1.png" alt="programa imagen" class="programa__imag">
+                        </div>
+
+                        <h3 class="programa__titulo">Flexionar el músculo</h3>
+
+                        <p class="programa__descripcion">
+                            Creando tensión que temporalmente hace que el músculo fibras más pequeñas o contraídas.
+                        </p>
+
+                        <a href="#" class="programa__boton">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="programa__tarjeta">
+                        <div class="programa__forma">
+                            <img src="img/p2.png" alt="programa imagen" class="programa__imag">
+                        </div>
+
+                        <h3 class="programa__titulo">Ejercicio de cardio</h3>
+
+                        <p class="programa__descripcion">
+                            Ejercite su ritmo cardíaco y manténgalo durante un período prolongado de tiempo.
+                        </p>
+
+                        <a href="#" class="programa__boton">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="programa__tarjeta">
+                        <div class="programa__forma">
+                            <img src="img/p3.png" alt="programa imagen" class="programa__imag">
+                        </div>
+
+                        <h3 class="programa__titulo">Yoga Básico</h3>
+
+                        <p class="programa__descripcion">
+                            Diafragmática: esta es la respiración más común. técnica que encontrarás en el yoga.
+                        </p>
+
+                        <a href="#" class="programa__boton">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="programa__tarjeta">
+                        <div class="programa__forma">
+                            <img src="img/p4.png" alt="programa imagen" class="programa__imag">
+                        </div>
+
+                        <h3 class="programa__titulo">Levantamiento de pesas</h3>
+
+                        <p class="programa__descripcion">
+                            Intenta un levantamiento único de peso máximo de un barra cargada con discos de peso.
+                        </p>
+
+                        <a href="#" class="programa__boton">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== ELEGIR ====================-->
+        <section class="elegir section" id="elegir">
+
+            <div class="elegir__overflow">
+                <div class="elegir__container container grid">
+                    <div class="elegir__contenido">
+                        <div class="section__dato">
+                            <h2 class="section__subtitulo">Mejor Razón</h2>
+                            <div class="section__titulos">
+                                <h1 class="section__titulo-border">POR QUÉ</h1>
+                                <h1 class="section__titulo">¿ELEGIRNOS?</h1>
+                            </div>
+                        </div>
+
+                        <p class="elegir__descripcion">
+                            Elige tu clase favorita y comienza ahora. Recuerda el El único mal entrenamiento es el que no hiciste.
+                        </p>
+
+                        <div class="elegir__dato">
+
+                            <div class="elegir__grupo">
+                                <h3 class="elegir__numero">300+</h3>
+                                <p class="elegir__subtitulo">Miembros totales</p>
+                            </div>
+
+                            <div class="elegir__grupo">
+                                <h3 class="elegir__numero">75+</h3>
+                                <p class="elegir__subtitulo">mejores entrenadores</p>
+                            </div>
+
+                            <div class="elegir__grupo">
+                                <h3 class="elegir__numero">35+</h3>
+                                <p class="elegir__subtitulo">Programas</p>
+                            </div>
+
+                            <div class="elegir__grupo">
+                                <h3 class="elegir__numero">125+</h3>
+                                <p class="elegir__subtitulo">Premios</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="elegir__images">
+                        <img src="img/choose-img.png" alt="elegir imagen" class="elegir__img">
+
+                        <div class="elegir__triangle elegir__triangle-1"></div>
+                        <div class="elegir__triangle elegir__triangle-2"></div>
+                        <div class="elegir__triangle elegir__triangle-3"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== PRECIO ====================-->
+        <section class="precio section" id="precio">
+
+            <div class="container">
+                <div class="section__dato">
+                    <h2 class="section__subtitulo">Precios</h2>
+                    <div class="section__titulos">
+                        <h1 class="section__titulo-border">NUESTRO</h1>
+                        <h1 class="section__titulo">PLAN ESPECIAL</h1>
+                    </div>
+                </div>
+
+                <div class="precio__container grid">
+                    <article class="precio__tarjeta">
+                        <header class="precio__cabecera">
+                            <div class="precio__forma">
+                                <img src="img/pricing1.png" alt="precio imagen" class="precio__img">
+                            </div>
+
+                            <h1 class="precio__titulo">PAQUETE BÁSICO</h1>
+                            <h2 class="precio__numero">$15</h2>
+                        </header>
+
+                        <ul class="precio__lista">
+
+                            <li class="precio__item">
+                                <i class="fa-regular fa-circle-check"></i> 5 días en una semana
+                            </li>
+
+                            <li class="precio__item">
+                                <i class="fa-regular fa-circle-check"></i> 01 Sudadera
+                            </li>
+
+                            <li class="precio__item precio__item-opacity ">
+                                <i class="fa-regular fa-circle-check"></i> 01 Botella de Proteína
+                            </li>
+
+                            <li class="precio__item precio__item-opacity ">
+                                <i class="fa-regular fa-circle-check"></i> Acceso a vídeos
+                            </li>
+
+                            <li class="precio__item precio__item-opacity ">
+                                <i class="fa-regular fa-circle-check"></i> Estiramiento muscular
+                            </li>
+                        </ul>
+
+                        <a href="" class="boton boton__flex precio__boton">
+                            Comprar ahora <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="precio__tarjeta precio__tarjeta-active">
+                        <header class="precio__cabecera">
+                            <div class="precio__forma">
+                                <img src="img/pricing2.png" alt="precio imagen" class="precio__img">
+                            </div>
+
+                            <h1 class="precio__titulo">PAQUETE PREMIUM</h1>
+                            <h2 class="precio__numero">$35</h2>
+                        </header>
+
+                        <ul class="precio__lista">
+
+                            <li class="precio__item">
+                                <i class="fa-regular fa-circle-check"></i> 5 días en una semana
+                            </li>
+
+                            <li class="precio__item">
+                                <i class="fa-regular fa-circle-check"></i> 01 Sudadera
+                            </li>
+                            <li class="precio__item">
+                                <i class="fa-regular fa-circle-check"></i> 01 Botella de Proteína
+                            </li>
+
+                            <li class="precio__item precio__item-opacity">
+                                <i class="fa-regular fa-circle-check"></i> Acceso a vídeos
+                            </li>
+
+                            <li class="precio__item precio__item-opacity">
+                                <i class="fa-regular fa-circle-check"></i> Estiramiento muscular
+                            </li>
+                        </ul>
+
+                        <a href="" class="boton boton__flex precio__boton">
+                            Comprar ahora <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="precio__tarjeta">
+                        <header class="precio__cabecera">
+                            <div class="precio__forma">
+                                <img src="img/pricing3.png" alt="precio imagen" class="precio__img">
+                            </div>
+
+                            <h1 class="precio__titulo">PAQUETE DIAMANTE</h1>
+                            <h2 class="precio__numero">$75</h2>
+                        </header>
+
+                        <ul class="precio__lista">
+
+                            <li class="precio__item">
+                                <i class="fa-regular fa-circle-check"></i> 5 días en una semana
+                            </li>
+
+                            <li class="precio__item">
+                                <i class="fa-regular fa-circle-check"></i> 01 Sudadera
+                            </li>
+
+                            <li class="precio__item">
+                                <i class="fa-regular fa-circle-check"></i> 01 Botella de Proteína
+                            </li>
+
+                            <li class="precio__item">
+                                <i class="fa-regular fa-circle-check"></i> Acceso a vídeos
+                            </li>
+
+                            <li class="precio__item">
+                                <i class="fa-regular fa-circle-check"></i> Estiramiento muscular
+                            </li>
+                        </ul>
+
+                        <a href="" class="boton boton__flex precio__boton">
+                            Comprar ahora <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </article>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--==================== CALCULADORA ====================-->
+        <section class="calculadora section">
+
+            <div class="calculadora__container container grid">
+                <div class="calculadora__contenido">
+                    <div class="section__titulos">
+                        <div class="section__titulo-border">CALCULAR</div>
+                        <div class="section__titulo">TU IMC</div>
+                    </div>
+
+                    <p class="calculadora__descripcion">
+                        La calculadora del índice de masa corporal (IMC) calcula índice de masa corporal a partir de su peso y altura.
+                    </p>
+
+                    <form action="" class="calculadora__form" id="calculadora-form">
+                        <div class="caja__calculadora">
+                            <input type="number" placeholder="Altura" class="calculadora__input" id="calculadora-cm">
+                            <label class="calculadora__label">cm</label>
+                        </div>
+
+                        <div class="caja__calculadora">
+                            <input type="number" placeholder="Peso" class="calculadora__input" id="calculadora-kg">
+                            <label class="calculadora__label">kg</label>
+                        </div>
+
+                        <button type="submit" class="boton boton__flex">
+                            Calcular Ahora <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+
+                    </form>
+
+                    <p class="calculadora__mensaje" id="calculadora-mensaje"></p>
+                </div>
+
+                <img src="img/calculate-img.png" alt="calculadora imagen" class="calculadora__img">
+            </div>
+
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section" id="footer">
+
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    <img src="img/logo-nav.png" alt="footer imagen"> GYM VEN
+                </a>
+                <p class="footer__descripcion">
+                    Suscríbase para recibir actualizaciones de la empresa <br> a continuación
+                </p>
+
+                <form class="footer__form" id="contacto-form">
+
+                    <input type="email" name="usuario_email" placeholder="Tu Correo" class="footer__input" id="contacto-usuario">
+
+                    <button type="submit" class="boton">
+                        Suscríbase
+                    </button>
+
+                </form>
+
+                <p class="footer__mensaje" id="contacto-mensaje"></p>
+            </div>
+
+            <div class="footer__contenido">
+
+                <!-- servicio -->
+                <div>
+                    <h3 class="footer__titulo">
+                        SERVICIOS
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Flexionar el músculo</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Ejercicio de cardio</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Yoga Básico</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Levantamiento de pesas</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <!-- Precio -->
+                    <h3 class="footer__titulo">
+                        PRECIOS
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Básico</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Premium</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Diamante</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <!-- compañia -->
+                    <h3 class="footer__titulo">
+                        COMPAÑIA
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Sobre nosotros</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Carreras</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Clientes</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Socios</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="footer__grupo">
+                <ul class="footer__social">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; Copyright Yonathan Sánchez. Reservados todos los derechos
+                </span>
+            </div>
+        </div>
+
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="js/scrollreveal.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--=============== PRINCIPAL JS ===============-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
